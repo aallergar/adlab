@@ -29,7 +29,7 @@ This Terraform setup will:
 
 ## Options
 
-All available options/variables are described in [terraform.tfvars.example](https://github.com/aallergar/adlab/blob/master/terraform.tfvars.example)
+All available options/variables are described in [terraform.tfvars.example](https://github.com/aallergar/adlab/blob/main/provider/azure/terraform.tfvars.example)
 
 
 
