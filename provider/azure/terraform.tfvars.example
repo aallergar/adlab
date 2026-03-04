@@ -1,0 +1,12 @@
+# Copy this file to terraform.tfvars and fill in your values
+
+azure_region        = "East US"
+environment         = "dev"
+vnet_cidr           = "10.0.0.0/16"
+subnet_cidr         = "10.0.1.0/24"
+vm_size             = "Standard_D2s_v3"
+allowed_rdp_cidr    = ["YOUR.IP.ADDRESS/32"]  # Replace with your IP for security
+domain_name         = "corp.example.com"
+domain_netbios_name = "CORP"
+safe_mode_password  = "YourSafeModePassword123!"
+admin_password      = "YourAdminPassword123!"
