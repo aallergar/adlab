@@ -55,3 +55,4 @@ admin_password      = "Adm!nP@ssw0rd456"
 - Browse to Providers folder, select your prefered cloud provider. Currently only Azure is available.
 - Move the file `terraform.tfvars.example` to `terraform.tfvars` and edit
 - Run `terraform apply`
+- Run ./verify-deployment.sh to check that everything's been provisioned Ok.
