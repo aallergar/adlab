@@ -1,6 +1,6 @@
 # Active Directory Deployment
 
-# This Terraform configuration deploys a Windows Server 2022 Domain Controller on cloud Providers  with Active Directory automatically installed and configured.
+This Terraform configuration deploys a Windows Server 2022 Domain Controller on cloud Providers (Azure initially) with Active Directory automatically installed and configured.
 
 
 ## Summary
