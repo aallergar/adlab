@@ -7,6 +7,12 @@ terraform {
   }
 }
 
+
+locals {
+  current_public_ip    = chomp(data.http.my_public_ip_address.response_body)
+}
+
+
 provider "azurerm" {
   features {}
 }
