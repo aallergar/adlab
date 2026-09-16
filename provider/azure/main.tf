@@ -248,7 +248,7 @@ resource "azurerm_storage_account" "scripts" {
 
   network_rules {
     default_action = "Deny"
-    ip_rules       = var.allowed_storage_ips
+    ip_rules       = [local.current_public_ip]
     bypass         = ["AzureServices"]
   }
 }
